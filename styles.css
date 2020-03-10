@@ -1,5 +1,16 @@
 body{
-    background-color:#11569C;
+    background-color:#1a355b ;
     height: max-content;
     font-family:Cambria;
+    font-size:13px;
+    margin:0;
+}
+.nav{
+    display: inline-block;
+    padding: 5px 10px;
+    list-style: none;
+}
+li{
+    display: list-item;
+    text-align: -webkit-match-parent;
 }
