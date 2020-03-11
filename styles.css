@@ -1,16 +1,31 @@
 body{
-    background-color:#1a355b ;
+    background-color:#2B5899;
     height: max-content;
     font-family:Cambria;
     font-size:13px;
     margin:0;
 }
-.nav{
+nav {
     display: inline-block;
     padding: 5px 10px;
-    list-style: none;
+    list-style-type: none;
+    font-size:20px;
 }
 li{
-    display: list-item;
-    text-align: -webkit-match-parent;
+    float: left;
+    padding:15px;
+}
+li.projeto{
+    text-align: right;
+    padding: 15px;
+}
+li a{
+    display: inline-block;
+    text-align: center;
+    color:black;
+    text-decoration: none;
+    text-align: center;
+}
+footer{
+    text-align:center;
 }
