@@ -4,20 +4,30 @@ body{
     font-family:Cambria;
     font-size:13px;
     margin:0;
+    line-height:1.5;
 }
-nav {
+nav li {
     display: inline-block;
-    padding: 5px 10px;
+    padding: 15px;
     list-style-type: none;
     font-size:20px;
 }
-li{
-    float: left;
-    padding:15px;
+footer{
+    text-align:center;
+    background-color:#25497E;
+    padding:20px;
 }
-li.projeto{
-    text-align: right;
-    padding: 15px;
+nav li.home:hover{
+    background-color: #0099cc;
+}
+nav li.projeto:hover{
+    background-color: #0099cc;
+}
+nav li.projeto{
+    float: right;
+}
+nav li.home{
+    float:right;
 }
 li a{
     display: inline-block;
@@ -26,6 +36,8 @@ li a{
     text-decoration: none;
     text-align: center;
 }
-footer{
-    text-align:center;
+#foto{
+    border-radius:50px;
+    width: 100%;
+    max-width:150px;
 }
