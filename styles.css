@@ -32,6 +32,7 @@ a:hover{
     background-color: #333a56; 
 }
 
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -45,9 +46,6 @@ nav li {
     font-size:20px;
 }
 
-nav li.nav-bar{
-    float:right;
-}
 
 li a{
     color:#F5F5F5;
@@ -113,4 +111,22 @@ li a{
     font-size: 30px;
     text-align:center;
     font-weight: bold;
+}
+
+.texto{
+    text-align: center;
+}
+
+span{
+    font-weight: 600;
+    color:white;
+}
+
+#tcc{
+    width:960px;
+    height:540px;
+    display:block;
+    border-image-repeat: stretch;
+    margin-left:auto;
+    margin-right:auto;
 }
