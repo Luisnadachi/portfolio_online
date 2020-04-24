@@ -10,13 +10,14 @@
     </head>
     <body>
         <header>
-            <nav class="cima">
-            <ul>
-                <li>Nadachi</li>
-                <li class="nav-bar"><a href="#home"><span class="lnr lnr-home"> Home</span></a></li>
-                <li class="nav-bar"><a href="#sobre"><span class="lnr lnr-user"> Sobre mim</span></a></li>
-                <li class="nav-bar"><a href="#projetos"><span class="lnr lnr-database"> Projetos </span></a></li>
-            </ul>
+            <nav class="cima" id="cima">
+                <ul>
+                    <li id="nadachi">Nadachi</li>
+                    <li class="nav-bar"><a href="#home"><span class="lnr lnr-home"> Home</span></a></li>
+                    <li class="nav-bar"><a href="#sobre"><span class="lnr lnr-user"> Sobre mim</span></a></li>
+                    <li class="nav-bar"><a href="#projetos"><span class="lnr lnr-database"> Projetos </span></a></li>
+                    <li class="nav-bar"><a href="#contatos"><span class="lnr lnr-envelope"> Contato </span></a></li>
+                </ul>
             </nav>
             <section class="home" id="home">
                 <img id = "foto" src = "./Assets/avatar.png">
@@ -31,7 +32,7 @@
                 </div>    
             </section>
         </header>
-            <div class="sobre" id="sobre">
+            <section class="sobre" id="sobre">
                 <hr style = "width:230px;">
                 <p class = "titulo">Sobre mim</p>
                 <p class = "texto">
@@ -40,7 +41,75 @@
                     pela Unisuam.
                 </p>
                 <img id="tcc" src = "./Assets/tcc.jpg">
-            </div>
+                <p class="titulo">Minhas Habilidades</p> 
+                <ul class="skills">
+                    <li><span>HTML5</span> - Intermediário</li>
+                    <li><span>CSS3</span> - Intermediário</li>
+                    <li><span>JavaScript</span> - Básico</li>
+                    <li><span>React</span> - Básico</li>
+                    <li><span>React Native</span> - Básico</li>
+                    <li><span>Git</span> - Básico</li>
+                    <li><span> Visual Basic</span> - Intermediário</li>
+                    <li><span>MySQL</span> - Intermediário</li>
+                    <li><span>Inglês</span> - Intermediário</li>
+                </ul>
+            </section>
+
+            <section class="projetos" id="projetos">
+                <hr style = "width:230px;">
+                <p class="titulo">Meus Projetos</p>
+                <div class="row-halves">
+                    <div class="col">
+                        <img src="./assets/baturitec.png" alt="">
+                        <h3>Sistema de Garantia</h3>
+                        <p>
+                            Um sistema de controle de garantia de peças e serviços, melhorando assim 
+                            o gerenciamento de quais garantias ainda estão ativas, foi feito usando 
+                            visual basic e banco de dados mysql.
+                        </p>
+                    </div>
+    
+                    <div class="col">
+                        <img src="./assets/7ways.png" alt="">
+                        <p id="ways">
+                            <h3>Sistema de Locadora de Jogos</h3> 
+                            Um sistema para gerenciamento de estoque, clientes, funcionários e vendas de uma 
+                            locadora de jogos de mídia física, foi feito usando visual basic e banco de dados 
+                            mysql online.
+                        </p>
+                    </div> 
+                </div>
+    
+                <div class="row-halves">
+                    <div class="col">
+                        <img src="./assets/hero.svg" alt="">
+                        <h3>Be The Hero</h3>
+                        <p>
+                            Sistema desenvolvido durante a semana Omnistack11 feita pela RocketSeat, com inuito 
+                            de servir como um ponto para ONGs encontrarem doadores, foi feito utilizando React e 
+                            React Native.
+                        </p>
+                    </div>
+                </div> 
+            </section>
+
+            <section class="contatos" id="contatos">
+                <hr style = "width:230px;">
+                <p class="titulo">Contato</p> 
+                <div class="container">
+                    <form action="">
+                        <label for="name">Nome</label>
+                        <input type="text" id="name" name="name">
+                        <label for="email">E-mail</label>
+                        <input type="text" id="email" name="email">
+                        <label for="message">Mensagem</label>
+                        <textarea name="message" id="message"
+                         style="height:200px"></textarea>
+                         <input type="submit" value="Enviar">
+                    </form>
+                  </div>
+            </section>
+
         <footer>
             <section class="bottom-bar">
                 <p>&copy 2020 | Todos os direitos reservados</p>
