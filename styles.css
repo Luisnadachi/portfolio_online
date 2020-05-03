@@ -8,14 +8,14 @@
     outline:none;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     padding: 0px;
     margin:0px;
-<<<<<<< HEAD
     background: black;
-=======
-    background: linear-gradient(-45deg,#4D6AFF, #FFB966, #9759FF);
->>>>>>> 57600f3cce83d91194e037ed9b91eed700f60235
     color:#F5F5F5;
     font-family:"Oxygen", sans-serif;
     transition: all 0.35s;
@@ -23,7 +23,7 @@ body{
 
 a {
     text-decoration: none;
-  }
+}
   
 .cima{
     top:0px;
@@ -31,6 +31,7 @@ a {
     text-align: right;
     position: fixed;
     width: 100%;
+    transition: .5s;
 }
 
 
@@ -84,7 +85,6 @@ li a{
 
 }
 
-<<<<<<< HEAD
 .botao {
     font-size: 24px;
     text-transform: uppercase;
@@ -191,19 +191,6 @@ li a{
     50%,100%{
         bottom:100%;
     }
-=======
-.botao{
-    font-size: 2rem;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    border: 3px solid #fff;
-    position: absolute;
-    top: 75%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 5rem 10rem;
-
->>>>>>> 57600f3cce83d91194e037ed9b91eed700f60235
 }
 
 .redes a{
@@ -235,7 +222,6 @@ li a{
     transition: all 0.35s;
     color:#0e76a8;
 }
-
 .bottom-bar{
     background:#333a56;
     font-size: 0.75em;
