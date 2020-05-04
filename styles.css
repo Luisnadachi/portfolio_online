@@ -12,31 +12,16 @@ html{
     scroll-behavior: smooth;
 }
 
-body{
-    padding: 0px;
-    margin:0px;
-    background: black;
-    color:#F5F5F5;
-    font-family:"Oxygen", sans-serif;
-    transition: all 0.35s;
-}
-
-a {
-    text-decoration: none;
-}
-  
-.cima{
+header{
     top:0px;
     background-color:transparent;
     text-align: right;
     position: fixed;
     width: 100%;
-    transition: .5s;
 }
 
-
-#nadachi{
-    float:left;
+a {
+    text-decoration: none;
 }
 
 ul {
@@ -46,16 +31,15 @@ ul {
     overflow: hidden;
 }
 
+li a{
+    color:#F5F5F5;
+    text-decoration: none;
+}
+
 nav li {
     display: inline-block;
     padding: 15px;
     font-size:20px;
-}
-
-
-li a{
-    color:#F5F5F5;
-    text-decoration: none;
 }
 
 .nav-bar{
@@ -77,12 +61,76 @@ li a{
     transition: width .3s;
 }
 
+#nadachi{
+    float:left;
+}
+
+.cima{
+    background:#332F2E;
+    height: 80px;
+    padding: 10px;
+    transition: .7s;
+}
+
+.semcima{
+    background: transparent;
+    transition: 0.5s;
+}
+
+body{
+    padding: 0px;
+    margin:0px;
+    background: black;
+    color:#F5F5F5;
+    font-family:"Oxygen", sans-serif;
+    transition: all 0.35s;
+}
+
 .home{
     text-align: center;
     margin: auto;
     height: 100vh;
     padding-top: 200px;
 
+}
+
+#foto{
+    width:160px;
+    height:180px;
+    display:block;
+    border-image-repeat: stretch;
+    margin-left:auto;
+    margin-right:auto;
+    padding-top: 30px;
+}
+
+.redes a{
+    text-decoration:none;
+    font-size: 48px;
+    text-align: center;
+    color:white;
+}
+
+#face:hover{
+    transition: all 0.35s;
+    color:#3b5998;
+}
+
+
+#twitter:hover{
+    transition: all 0.35s;
+    color:#1DA1F2;
+
+}
+
+#git:hover{
+    transition: all 0.35s;
+    color:#24292e;
+}
+
+#linke:hover{
+    transition: all 0.35s;
+    color:#0e76a8;
 }
 
 .botao {
@@ -102,7 +150,6 @@ li a{
     transform: translate(-50%, -50%);
     -webkit-box-reflect: below 1px linear-gradient(transparent,#0005);
 }
-
 
 .botao:hover{
     background: #03e9f4;
@@ -193,51 +240,8 @@ li a{
     }
 }
 
-.redes a{
-    text-decoration:none;
-    font-size: 48px;
-    text-align: center;
-    color:white;
-}
-
-
-#face:hover{
-    transition: all 0.35s;
-    color:#3b5998;
-}
-
-
-#twitter:hover{
-    transition: all 0.35s;
-    color:#1DA1F2;
-
-}
-
-#git:hover{
-    transition: all 0.35s;
-    color:#24292e;
-}
-
-#linke:hover{
-    transition: all 0.35s;
-    color:#0e76a8;
-}
-.bottom-bar{
-    background:#333a56;
-    font-size: 0.75em;
-    text-align: center;
-    padding:15px;
-
-}
-
-#foto{
-    width:160px;
-    height:180px;
-    display:block;
-    border-image-repeat: stretch;
-    margin-left:auto;
-    margin-right:auto;
-    padding-top: 30px;
+.sobre{
+    padding-top: 50px;
 }
 
 .titulo{
@@ -273,6 +277,14 @@ img{
     width: 100%;
 }
 
+.projetos{
+    padding-top: 50px;
+}
+
+#ways{
+    padding-top: 135px;
+}
+
 .row-halves{
     display:-webkit-box;
     display: -ms-flexbox;
@@ -294,10 +306,6 @@ img{
     margin-right: 20px;
     margin-left: 20px;
 
-}
-
-#ways{
-    padding-top: 135px;
 }
 
 form input[type="text"],
@@ -343,4 +351,12 @@ input[type="submit"]:hover{
     margin-right: 20px;
     background: transparent;
     padding: 20px 0;
+}
+
+.bottom-bar{
+    background:#332F2E;
+    font-size: 0.75em;
+    text-align: center;
+    padding:15px;
+
 }
