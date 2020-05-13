@@ -10,6 +10,7 @@
 
 html{
     scroll-behavior: smooth;
+    
 }
 
 header{
@@ -66,7 +67,7 @@ nav li {
 }
 
 .cima{
-    background:#332F2E;
+    background:#000000;
     height: 80px;
     padding: 10px;
     transition: .7s;
@@ -80,7 +81,7 @@ nav li {
 body{
     padding: 0px;
     margin:0px;
-    background:gray;
+    background:#738AFF;
     color:#F5F5F5;
     font-family:"Oxygen", sans-serif;
     transition: all 0.35s;
@@ -91,9 +92,8 @@ body{
     margin: auto;
     height: 100vh;
     padding-top: 200px;
-    background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898; 
+    background: linear-gradient(to right bottom, #4e6fff, #6a7cff, #818aff, #9498ff, #a6a6ff);
     background-blend-mode: multiply,multiply;
-    overflow: auto;
 }
 
 #foto{
@@ -138,113 +138,6 @@ body{
 #email:hover{
     transition: all 0.35s;
     color:#D44638;
-}
-
-.botao {
-    font-size: 24px;
-    text-transform: uppercase;
-    text-decoration: none;
-    display: inline-block;
-    padding: 25px 30px;
-    margin: 40px 0;
-    color:#03e9f4;
-    letter-spacing: 4px;
-    position: absolute;
-    top: 75%;
-    left: 50%;
-    overflow: hidden;
-    transition: 0.5s;
-    transform: translate(-50%, -50%);
-    -webkit-box-reflect: below 1px linear-gradient(transparent,#0005);
-}
-
-.botao:hover{
-    background: #03e9f4;
-    color: #050801;
-    box-shadow: 0 0 5px #03e9f4,
-                0 0 25px #03e9f4,
-                0 0 50px #03e9f4,
-                0 0 200px #03e9f4;
-}
-
-.espaco{
-    position: absolute;
-    display: block;
-}
-
-.espaco:nth-child(1){
-    top:0;
-    left:0;
-    width: 100%;
-    height: 2px;
-    background: linear-gradient(90deg, transparent,#03e9f4);
-    animation: animate1 1s linear infinite;
-}
-
-@keyframes animate1{
-    0%{
-        left:-100%;
-    }
-    50%,100%{
-        left:100%;
-    }
-}
-
-.espaco:nth-child(2){
-    top:-100%;
-    right: 0;
-    width: 2px;
-    height: 100%;
-    background: linear-gradient(180deg, transparent,#03e9f4);
-    animation: animate2 1s linear infinite;
-    animation-delay: 0.25s;
-}
-
-@keyframes animate2{
-    0%{
-        top:-100%;
-    }
-    50%,100%{
-        top:100%;
-    }
-}
-
-.espaco:nth-child(3){
-    bottom:0;
-    right: -100%;
-    width: 100%;
-    height: 2px;
-    background: linear-gradient(270deg, transparent,#03e9f4);
-    animation: animate3 1s linear infinite;
-    animation-delay: 0.5s;
-}
-
-@keyframes animate3{
-    0%{
-        right:-100%;
-    }
-    50%,100%{
-        right:100%;
-    }
-}
-
-.espaco:nth-child(4){
-    bottom:-100%;
-    left: 0;
-    width: 2px;
-    height: 100%;
-    background: linear-gradient(180deg, transparent,#03e9f4);
-    animation: animate4 1s linear infinite;
-    animation-delay: 0.75s;
-}
-
-@keyframes animate4{
-    0%{
-        bottom:-100%;
-    }
-    50%,100%{
-        bottom:100%;
-    }
 }
 
 .sobre{
@@ -353,7 +246,6 @@ input[type="submit"]{
 input[type="submit"]:hover{
     background-color: #b2b2b2;
     color:#222;
-
 }
 
 .contatos .container{
@@ -366,7 +258,7 @@ input[type="submit"]:hover{
 }
 
 .bottom-bar{
-    background:#332F2E;
+    background:#000000;
     font-size: 0.75em;
     text-align: center;
     padding:15px;
